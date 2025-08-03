@@ -1,0 +1,24 @@
+# Build and deps
+node_modules/
+dist/
+main.mjs
+_dev/
+/uniswap-arb-tags.csv
+
+# removed build artefacts
+.DS_Store
+
+# Local-only data and scripts
+scripts-local/
+data/
+readme.md
+tsconfig.local.json
+
+# Environment variables
+.env
+.env.*
+!.env.example_dev/
+
+# CI
+.github/
+.husky/

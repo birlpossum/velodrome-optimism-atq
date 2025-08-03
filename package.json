@@ -1,0 +1,12 @@
+{
+  "type": "module",
+  "main": "main.mjs",
+  "license": "MIT",
+  "dependencies": {
+    "atq-types": "^1.1.5",
+    "node-fetch": "^3.3.2"
+  },
+  "scripts": {
+    "build": "tsc"
+  }
+}

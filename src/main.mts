@@ -223,7 +223,7 @@ class TagService implements ITagService {
         console.log(`Retrieved first ${counter * 1000} entries...`);
         isMore = pools.length === 1000;
         if (isMore) {
-          lastTimestamp = pools[pools.length - 1].createdTimestamp;
+          lastTimestamp = Number(pools[pools.length - 1].createdTimestamp);
         }
       } catch (error) {
         if (isError(error)) {
